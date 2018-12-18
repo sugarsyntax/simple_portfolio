@@ -40,7 +40,7 @@ nav {
 }
 .form-group {
     float: right;
-    width: 30%;
+    width: 50%;
     height: 100%;
 }
 .icons {
@@ -90,7 +90,6 @@ p {
 h2 {
     margin-top: 0.7rem;
     text-align: center;
-    color: #919aa1;
     font-size: 3em;
 }
 h3 {
@@ -101,12 +100,19 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 3rem;
+    margin: 0rem 3rem;
     font-size: 1.8em;
-    color: #919aa1;
+    color: #000;
 }
 li {
     list-style-type: none;
+}
+#resume {
+    color: #000;
+    margin: 0rem;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.6rem;
 }
 #portfolio {
     margin-top: 15rem;  
