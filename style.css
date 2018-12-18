@@ -71,7 +71,7 @@ a {
 #intro {
     font-size: 1.8rem;
     color: #000;
-    text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.301);
+    text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.233);
 }
 p {
     margin: 2em 4em;
@@ -111,10 +111,11 @@ li {
 }
 #resume {
     color: #000;
-    margin: 0rem;
+    margin: 1rem auto;
+    padding: 5rem auto;
     text-align: center;
-    font-size: 1rem;
-    letter-spacing: 0.6rem;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
 }
 #portfolio {
     margin-top: 15rem;  
