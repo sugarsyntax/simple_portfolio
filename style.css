@@ -8,6 +8,9 @@ nav {
     margin: 0rem auto;
     z-index: 1;
 }
+a {
+    color: #fff;
+}
 .nav-link {
     text-decoration: none;
     font-size: 1rem;
@@ -39,12 +42,10 @@ nav {
     margin-left: 2rem;
 }
 .form-group {
-    float: right;
     width: 50%;
     height: 100%;
 }
 .icons {
-    float: left;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -138,7 +139,7 @@ li {
     height: 20rem;
     width: inherit;
 }
-.overlay {
+.cardi {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -146,15 +147,31 @@ li {
     right: 0;
     height: 100%;
     width: 100%;
+    color: #fff;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.705);
-  }
+    background-color: rgba(0, 0, 0, 0.801);
+} 
+.card li {
+    color: #fff;
+}
+.card-title {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+.container-fluid:hover .card {
+    opacity: 0.85;
+    cursor: pointer;
+}
   
   .container-fluid:hover .overlay {
     opacity: 1;
     cursor: pointer;
   }
+.tech {
+    text-align: center;
+}
 @media (max-width:920px) {
     min-height: auto;
     ul {
