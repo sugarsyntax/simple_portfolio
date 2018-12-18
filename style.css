@@ -19,7 +19,7 @@ nav {
 }
 .nav-link {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1rem;
 }
 .navbar {
     display: flex;
@@ -44,6 +44,20 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.form-group {
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+.icons {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.profile-link {
+    height: 3rem;
+}
 .wrect {
     background-color: #fff;
     width: 100%;
@@ -51,20 +65,20 @@ nav {
     z-index: 1;
 }
 #me {
+    float: left;
     margin-right: 0em;
     margin-left: 11em;
+    margin-right: 15rem;
     width: 15em;
     border-radius: 100px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.intro {
-    float: right;
-    margin-right: 6em;
-    font-size: 3em;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+#intro {
+    font-size: 1.8rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.212);
 }
 p {
-    margin: 1.5em 3.5em;
+    margin: 2em 4em;
     font-size: 1.5em;
     line-height: 1.8em;
     text-align: justify;
@@ -149,4 +163,13 @@ li {
             margin: 0% 50%;
             list-style-type: circle;
         }
+    #me {
+        float: none;
     }
+    #intro {
+        text-align: center;
+    }
+    btn {
+        margin: 0 auto;
+    }
+}
