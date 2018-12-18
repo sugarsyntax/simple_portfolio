@@ -72,16 +72,22 @@ p {
 }
 .shape {
     position: absolute;
+    margin-bottom: 10rem;
     width: 100%;
-    min-height: 196.85px;
+    min-height: 5rem;
+    max-height: 10rem;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.05);
 }
 h2 {
-    margin-top: 1rem;
+    margin-top: 0.7rem;
     text-align: center;
     color: #919aa1;
     font-size: 3em;
+}
+h3 {
+    text-align: center;
+    margin: 3rem auto;
 }
 ul {
     display: flex;
@@ -94,6 +100,46 @@ ul {
 li {
     list-style-type: none;
 }
+#portfolio {
+    margin-top: 15rem;  
+    padding-bottom: 10rem; 
+    min-height: 100%;
+}
+.projects-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+.container-fluid {
+  position: relative;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: auto;
+  margin: 1rem 0rem;   
+}
+.project {
+    height: 20rem;
+    width: inherit;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.705);
+  }
+  .container-fluid:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
 @media (max-width:920px) {
     min-height: auto;
     ul {
