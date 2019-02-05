@@ -81,8 +81,7 @@ a {
 }
 #intro {
   font-size: 2rem;
-  color: #000;
-  text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.233);
+  text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.13);
 }
 p {
   margin: 2em 4em;
