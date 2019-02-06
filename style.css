@@ -97,7 +97,7 @@ p {
   min-height: 5rem;
   max-height: 10rem;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #f8f9fa;
 }
 h2 {
   margin-top: 0.7rem;
@@ -128,7 +128,10 @@ li {
   letter-spacing: 0.5rem;
 }
 #portfolio {
-  margin-top: 15rem;
+  background-image: url("images/geometric-patterns-2014783_640.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding-top: 15rem;
   padding-bottom: 10rem;
   min-height: 100%;
 }
@@ -206,5 +209,8 @@ li {
   }
   .form-group {
     width: 30%;
+  }
+  #portfolio {
+    padding-bottom: 2rem;
   }
 }
